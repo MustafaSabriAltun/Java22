@@ -1,6 +1,6 @@
 package kalınSesİnceSes;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		char harf = 'I';
