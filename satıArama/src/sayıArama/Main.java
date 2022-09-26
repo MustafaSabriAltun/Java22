@@ -1,4 +1,4 @@
-package satıArama;
+package sayıArama;
 
 public class Main {
 
