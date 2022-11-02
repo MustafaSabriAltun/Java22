@@ -1,0 +1,21 @@
+package kodlama.io.rentACar.webApi.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import kodlama.io.rentACar.business.abstracts.BrandService;
+
+@RestController // annotation--- bılgılerndırme
+@RequestMapping("/api/brands") // bu bızım url gıbı nerede oldugunu gosterıyor. adresleme
+public class BrandsController {
+
+	private BrandService brandService;
+
+	public BrandsController(BrandService brandService) {
+		super();
+		this.brandService = brandService;
+	}
+	
+	public List<Brand> getAll();
+		return brand
+}
