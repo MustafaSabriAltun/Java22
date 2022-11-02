@@ -1,0 +1,52 @@
+package Kodlama.io.Kodlama.io.Devs.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import Kodlama.io.Kodlama.io.Devs.dataAccess.abstracts.ProgrammingLanguageRepository;
+import Kodlama.io.Kodlama.io.Devs.entities.concretes.ProgrammingLanguage;
+
+public class InMemoryProgrammingLanguageRepository implements ProgrammingLanguageRepository {
+
+	List<ProgrammingLanguage> programmingLanguages;
+		
+	public InMemoryProgrammingLanguageRepository() {
+		
+		programmingLanguages = new ArrayList<ProgrammingLanguage>();
+		
+		programmingLanguages.add(new ProgrammingLanguage(1, "JAVA"));
+		programmingLanguages.add(new ProgrammingLanguage(2, "C#"));
+		programmingLanguages.add(new ProgrammingLanguage(3, "PYTHON"));
+	}
+
+	@Override
+	public List<ProgrammingLanguage> getAll() {
+		// TODO Auto-generated method stub
+		return ProgrammingLanguageRepository.;
+	}
+
+	@Override
+	public ProgrammingLanguage add(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProgrammingLanguage delete(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProgrammingLanguage upload(ProgrammingLanguage programmingLanguage, String newProgrammingLanguage) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProgrammingLanguage findById(ProgrammingLanguage programmingLanguage, int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

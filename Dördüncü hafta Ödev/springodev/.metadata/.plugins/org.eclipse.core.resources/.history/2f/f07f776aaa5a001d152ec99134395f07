@@ -1,0 +1,16 @@
+package Kodlama.io.Kodlama.io.Devs.business.concretes;
+
+import java.util.ArrayList;
+
+import Kodlama.io.Kodlama.io.Devs.business.abstracts.ProgrammingLanguageService;
+import Kodlama.io.Kodlama.io.Devs.entities.concretes.ProgrammingLanguage;
+
+public class ProgrammingLangugaeManager implements ProgrammingLanguageService {
+
+	@Override
+	public ArrayList<ProgrammingLanguage> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,19 @@
+package Kodlama.io.Kodlama.io.Devs.business.abstracts;
+
+import java.util.ArrayList;
+
+import Kodlama.io.Kodlama.io.Devs.entities.concretes.ProgrammingLanguage;
+
+public interface ProgrammingLanguageService {
+
+	ArrayList<ProgrammingLanguage> getAll();
+	
+	public ProgrammingLanguage add(ProgrammingLanguage programmingLanguage) throws Exception;
+
+	public ProgrammingLanguage delete(ProgrammingLanguage programmingLanguage);
+
+	public ProgrammingLanguage update(ProgrammingLanguage programmingLanguage, String newProgrammingLanguage);
+
+	public ProgrammingLanguage findById(ProgrammingLanguage programmingLanguage, int id);
+	
+}

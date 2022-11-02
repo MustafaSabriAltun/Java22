@@ -1,0 +1,11 @@
+package Kodlama.io.Kodlama.io.Devs.business.abstracts;
+
+import java.util.ArrayList;
+
+import Kodlama.io.Kodlama.io.Devs.entities.concretes.ProgrammingLanguage;
+
+public interface ProgrammingLanguageService {
+
+	ArrayList<ProgrammingLanguage> getAll();
+	
+}
